@@ -1,0 +1,28 @@
+/* Additional custom styles for project detail component */
+/* Most styling is handled by Tailwind CSS classes in the HTML template */
+
+/* Add smooth scrolling for the page */
+:host {
+  display: block;
+  scroll-behavior: smooth;
+}
+
+/* Add any custom animations or transitions here */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Enhance image hover effects */
+img:hover {
+  filter: brightness(1.05);
+  transition: filter 0.3s ease;
+}

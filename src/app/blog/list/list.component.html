@@ -1,1 +1,149 @@
-<p>list works!</p>
+<div>
+  <!-- Hero Section -->
+  <div class="bg-[#0a2342] text-white py-20 px-8 md:px-16">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-5xl md:text-6xl font-semibold mb-4">Our Blog</h1>
+      <h2 class="text-3xl md:text-4xl text-gray-300 mb-8">Insights & Updates from <span class="text-white font-semibold">Afrikatek</span></h2>
+      <p class="text-xl text-gray-300 max-w-4xl leading-relaxed">
+        Stay up-to-date with the latest trends in technology, insights from our experts, and news about our projects and company.
+      </p>
+    </div>
+  </div>
+
+  <!-- Featured Post -->
+  <div class="bg-white text-[#0a2342] py-20 px-8 md:px-16">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl font-semibold mb-12 text-center">Featured Article</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <span class="text-gray-500">June 15, 2023</span>
+            <span class="px-3 py-1 bg-[#0a2342] text-white text-sm rounded-full">Technology</span>
+          </div>
+          <h3 class="text-3xl font-semibold mb-6">Top Web Development Trends in 2023</h3>
+          <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+            Explore the latest trends shaping the web development landscape in 2023, from serverless architecture to progressive web apps and AI integration. Learn how these technologies are transforming the way websites and applications are built.
+          </p>
+          <a routerLink="/blog/detail/1" class="inline-block py-3 px-6 bg-[#0a2342] text-white font-semibold rounded-lg hover:bg-[#0f3158] transition-colors duration-300">Read Full Article</a>
+        </div>
+        <div>
+          <img class="w-full rounded-xl shadow-lg" src="./img/blog/web-development-trends.jpg" alt="Web Development Trends"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog Posts Grid -->
+  <div class="bg-gray-50 text-[#0a2342] py-20 px-8 md:px-16">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl font-semibold mb-12 text-center">Latest Articles</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <!-- Blog Post 2 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:transform hover:scale-105 transition-all duration-300">
+          <img class="w-full h-56 object-cover" src="./img/blog/digital-transformation.jpg" alt="Digital Transformation"/>
+          <div class="p-8">
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-gray-500 text-sm">May 28, 2023</span>
+              <span class="px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">Business</span>
+            </div>
+            <h3 class="text-2xl font-semibold mb-4">Digital Transformation: A Guide for African Businesses</h3>
+            <p class="text-gray-600 mb-6">Learn how African businesses can leverage digital transformation to overcome challenges, improve efficiency, and compete in the global marketplace.</p>
+            <a routerLink="/blog/detail/2" class="text-[#0a2342] font-semibold hover:underline inline-flex items-center">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:transform hover:scale-105 transition-all duration-300">
+          <img class="w-full h-56 object-cover" src="./img/blog/cybersecurity.jpg" alt="Cybersecurity"/>
+          <div class="p-8">
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-gray-500 text-sm">April 10, 2023</span>
+              <span class="px-3 py-1 bg-red-100 text-red-800 text-sm rounded-full">Security</span>
+            </div>
+            <h3 class="text-2xl font-semibold mb-4">Essential Cybersecurity Practices for Small Businesses</h3>
+            <p class="text-gray-600 mb-6">Discover practical cybersecurity measures that small businesses can implement to protect their data, systems, and customers from cyber threats.</p>
+            <a routerLink="/blog/detail/3" class="text-[#0a2342] font-semibold hover:underline inline-flex items-center">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Blog Post 4 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:transform hover:scale-105 transition-all duration-300">
+          <img class="w-full h-56 object-cover" src="./img/blog/mobile-apps.jpg" alt="Mobile Apps"/>
+          <div class="p-8">
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-gray-500 text-sm">March 22, 2023</span>
+              <span class="px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">Mobile</span>
+            </div>
+            <h3 class="text-2xl font-semibold mb-4">Native vs. Cross-Platform Mobile App Development</h3>
+            <p class="text-gray-600 mb-6">Compare the pros and cons of native and cross-platform mobile app development approaches to help you make the right choice for your business.</p>
+            <a routerLink="/blog/detail/4" class="text-[#0a2342] font-semibold hover:underline inline-flex items-center">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Blog Post 5 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:transform hover:scale-105 transition-all duration-300">
+          <img class="w-full h-56 object-cover" src="./img/blog/cloud-computing.jpg" alt="Cloud Computing"/>
+          <div class="p-8">
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-gray-500 text-sm">February 15, 2023</span>
+              <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Cloud</span>
+            </div>
+            <h3 class="text-2xl font-semibold mb-4">Cloud Computing Solutions for Growing Businesses</h3>
+            <p class="text-gray-600 mb-6">Explore how cloud computing can help growing businesses scale their operations, reduce costs, and improve collaboration and flexibility.</p>
+            <a routerLink="/blog/detail/5" class="text-[#0a2342] font-semibold hover:underline inline-flex items-center">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Blog Post 6 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:transform hover:scale-105 transition-all duration-300">
+          <img class="w-full h-56 object-cover" src="./img/blog/ai-business.jpg" alt="AI in Business"/>
+          <div class="p-8">
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-gray-500 text-sm">January 8, 2023</span>
+              <span class="px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">AI</span>
+            </div>
+            <h3 class="text-2xl font-semibold mb-4">Practical Applications of AI in Business Operations</h3>
+            <p class="text-gray-600 mb-6">Discover how businesses are using artificial intelligence to automate processes, gain insights from data, and enhance customer experiences.</p>
+            <a routerLink="/blog/detail/6" class="text-[#0a2342] font-semibold hover:underline inline-flex items-center">
+              Read More
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="mt-16 flex justify-center">
+        <nav class="flex items-center gap-3">
+          <a href="#" class="px-4 py-2 border border-[#0a2342] text-[#0a2342] rounded-lg hover:bg-gray-100 transition-colors duration-300">Previous</a>
+          <a href="#" class="px-4 py-2 bg-[#0a2342] text-white rounded-lg">1</a>
+          <a href="#" class="px-4 py-2 border border-[#0a2342] text-[#0a2342] rounded-lg hover:bg-gray-100 transition-colors duration-300">2</a>
+          <a href="#" class="px-4 py-2 border border-[#0a2342] text-[#0a2342] rounded-lg hover:bg-gray-100 transition-colors duration-300">3</a>
+          <a href="#" class="px-4 py-2 border border-[#0a2342] text-[#0a2342] rounded-lg hover:bg-gray-100 transition-colors duration-300">Next</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

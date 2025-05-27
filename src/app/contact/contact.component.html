@@ -1,80 +1,169 @@
-<div class="flex gap-10">
-  <div class="max-w-2/5 pt-10 mt-10">
-    <h1 class="text-7xl text-blue-900 mb-5 text-center">Get in touch</h1>
-    <p class="text-gray-600 text-sm/6 text-center mb-10">
-      Afrikatek is a solution hub where we can build your next big solutions. We would love to hear your challenges and
-      try to propose a solutions that best would suit your needs. Please drop down a few details on the form and let us
-      get in touch with you and propose a solution.
-    </p>
-    <div class="flex gap-6 mt-5 items-center p-3 border border-gray-300 rounded-md shadow">
-      <fa-icon class="text-blue-900" [icon]="faBuilding" size="2x"></fa-icon>
-      <div class="flex flex-col gap-2">
-        <p class="text-md/6 text-gray-600 ">Address</p>
-        <p class="text-md/6 text-gray-600">123, Main Street, Nairobi, Kenya</p>
-      </div>
-    </div>
-    <div class="flex gap-6 mt-5 items-center p-3 border border-gray-300 rounded-md shadow">
-      <fa-icon class="text-blue-900" [icon]="faPhone" size="2x"></fa-icon>
-      <div class="flex flex-col gap-2">
-        <p class="text-md/6 text-gray-600 ">Phone Number</p>
-        <p class="text-md/6 text-gray-600 ">(+2774)-884-1383</p>
-      </div>
-    </div>
-    <div class="flex gap-6 mt-5 items-center p-3 border border-gray-300 rounded-md shadow">
-      <fa-icon class="text-blue-900" [icon]="faEnvelope" size="2x"></fa-icon>
-      <div>
-        <p class="text-md/6 text-gray-600 ">Email</p>
-        <p class="text-md/6 text-gray-600 ">support&#64;afrikatek.co.za</p>
-      </div>
+<div>
+  <!-- Hero Section -->
+  <!--  bg-[#D8D9D7]-->
+  <div class="bg-[#D8D9D7] text-[#0a2342] py-20 px-8 md:px-16">
+    <div class="max-w-7xl mx-auto text-center">
+      <h1 class="text-5xl md:text-6xl font-semibold mb-4">Get in Touch</h1>
+      <p class="text-xl max-w-3xl mx-auto leading-relaxed">
+        We'd love to hear from you. Whether you have a question about our services, need a quote, or want to discuss a project, our team is ready to help.
+      </p>
     </div>
   </div>
-  <div class="min-w-3/5 flex flex-col gap-5 p-10 m-10 mx-auto border border-gray-300 rounded-md shadow">
-    <div class="text-center">
-      <h2 class="text-7xl text-blue-900 mb-3">Contact Us</h2>
-      <p class="text-gray-600">Give us a shout so that we can help you through your challenge.</p>
-    </div>
-    <form action="" method="post">
-      <div class="grid grid-cols-2 gap-x-8 gap-y-6">
-        <div class="flex flex-col gap-2">
-          <label class="block text-sm/6 font-semibold text-gray-900" for="firstName">First Name</label>
-          <div>
-            <input type="text" class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600" name="firstName" id="firstName" placeholder="Enter First Name" />
-          </div>
-        </div>
-        <div class="flex flex-col gap-2">
-          <label class="block text-sm/6 font-semibold text-gray-900" for="">Last Name</label>
-          <div>
-            <input class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600" type="text" name="lastName" id="" placeholder="Enter Last Name" />
-          </div>
-        </div>
-        <div class="flex flex-col gap-2">
-          <label class="block text-sm/6 font-semibold text-gray-900" for="">Company</label>
-          <div>
-            <input class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600" type="text" name="companyName" id="" placeholder="Enter company name" />
-          </div>
-        </div>
-        <div class="flex flex-col gap-2">
-          <label class="block text-sm/6 font-semibold text-gray-900" for="">Email</label>
-          <div>
-            <input class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600" type="email" name="firstName" id="" placeholder="Email (example@example.com)" />
-          </div>
-        </div>
-        <div class="flex flex-col gap-2">
-          <label class="block text-sm/6 font-semibold text-gray-900" for="">Phone Number</label>
-          <div>
-            <input class="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600" type="text" name="phoneNumber" id="" placeholder="Phone (+2774)-884-1383)" />
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-col gap-2 mt-5 mb-5">
-        <label class="block text-sm/6 font-semibold text-gray-900" for="">Message</label>
+
+  <!-- Contact Section -->
+  <div class="bg-white py-20 md:px-16">
+    <div class="max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <!-- Contact Information -->
         <div>
-          <textarea class="block py-2 w-full rounded-md bg-white px-3.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:-outline-offset-2 focus:outline-indigo-600" name="message" id="message" rows="5" placeholder="Please let us know how we can assist you." ></textarea>
+          <h2 class="text-3xl font-semibold text-[#0a2342] mb-8">Contact Information</h2>
+          <p class="text-gray-600 text-lg mb-10 leading-relaxed">
+            Afrikatek is a solution hub where we build your next big solutions. We would love to hear your challenges and propose solutions that best suit your needs.
+          </p>
+
+          <div class="space-y-6">
+            <div class="flex items-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+              <div class="w-12 h-12 bg-[#0a2342] rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                <fa-icon class="text-white" [icon]="faBuilding"></fa-icon>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-[#0a2342] mb-1">Our Office</h3>
+                <p class="text-gray-600">123 Main Street, Nairobi, Kenya</p>
+              </div>
+            </div>
+
+            <div class="flex items-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+              <div class="w-12 h-12 bg-[#0a2342] rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                <fa-icon class="text-white" [icon]="faPhone"></fa-icon>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-[#0a2342] mb-1">Phone</h3>
+                <p class="text-gray-600">(+2774)-884-1383</p>
+              </div>
+            </div>
+
+            <div class="flex items-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-md transition-all duration-300">
+              <div class="w-12 h-12 bg-[#0a2342] rounded-full flex items-center justify-center mr-6 flex-shrink-0">
+                <fa-icon class="text-white" [icon]="faEnvelope"></fa-icon>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-[#0a2342] mb-1">Email</h3>
+                <p class="text-gray-600">support&#64;afrikatek.co.za</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+          <h2 class="text-3xl font-semibold text-[#0a2342] mb-6 text-center">Send Us a Message</h2>
+          <p class="text-gray-600 text-center mb-8">Fill out the form below and we'll get back to you as soon as possible.</p>
+
+          <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+            <!-- Success Message -->
+            <div *ngIf="submitSuccess" class="mb-8 p-6 bg-green-50 text-green-800 rounded-xl">
+              <p class="font-semibold text-lg mb-2">Thank you for contacting us!</p>
+              <p>We have received your message and will get back to you shortly.</p>
+            </div>
+
+            <!-- Error Message -->
+            <div *ngIf="submitError" class="mb-8 p-6 bg-red-50 text-red-800 rounded-xl">
+              <p class="font-semibold text-lg mb-2">Error:</p>
+              <p>{{ errorMessage }}</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div>
+                <label class="block text-sm font-semibold text-[#0a2342] mb-2" for="firstName">First Name <span class="text-red-600">*</span></label>
+                <input
+                  type="text"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0a2342] focus:ring-2 focus:ring-[#0a2342]/20 transition-all duration-300 placeholder:text-gray-400"
+                  name="firstName"
+                  id="firstName"
+                  placeholder="Enter your first name"
+                  [(ngModel)]="formData.firstName"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-semibold text-[#0a2342] mb-2" for="lastName">Last Name <span class="text-red-600">*</span></label>
+                <input
+                  type="text"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0a2342] focus:ring-2 focus:ring-[#0a2342]/20 transition-all duration-300 placeholder:text-gray-400"
+                  name="lastName"
+                  id="lastName"
+                  placeholder="Enter your last name"
+                  [(ngModel)]="formData.lastName"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-semibold text-[#0a2342] mb-2" for="email">Email <span class="text-red-600">*</span></label>
+                <input
+                  type="email"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0a2342] focus:ring-2 focus:ring-[#0a2342]/20 transition-all duration-300 placeholder:text-gray-400"
+                  name="email"
+                  id="email"
+                  placeholder="example@example.com"
+                  [(ngModel)]="formData.email"
+                  required
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-semibold text-[#0a2342] mb-2" for="phoneNumber">Phone Number</label>
+                <input
+                  type="text"
+                  class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0a2342] focus:ring-2 focus:ring-[#0a2342]/20 transition-all duration-300 placeholder:text-gray-400"
+                  name="phoneNumber"
+                  id="phoneNumber"
+                  placeholder="(+27) 74-884-1383"
+                  [(ngModel)]="formData.phoneNumber"
+                />
+              </div>
+            </div>
+
+            <div class="mb-6">
+              <label class="block text-sm font-semibold text-[#0a2342] mb-2" for="companyName">Company</label>
+              <input
+                type="text"
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0a2342] focus:ring-2 focus:ring-[#0a2342]/20 transition-all duration-300 placeholder:text-gray-400"
+                name="companyName"
+                id="companyName"
+                placeholder="Your company name"
+                [(ngModel)]="formData.companyName"
+              />
+            </div>
+
+            <div class="mb-8">
+              <label class="block text-sm font-semibold text-[#0a2342] mb-2" for="message">Message <span class="text-red-600">*</span></label>
+              <textarea
+                class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-[#0a2342] focus:ring-2 focus:ring-[#0a2342]/20 transition-all duration-300 placeholder:text-gray-400"
+                name="message"
+                id="message"
+                rows="6"
+                placeholder="Please let us know how we can assist you."
+                [(ngModel)]="formData.message"
+                required
+              ></textarea>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+              <p class="text-sm text-gray-600"><span class="text-red-600">*</span> Required fields</p>
+              <button
+                class="w-full sm:w-auto py-3 px-8 bg-[#0a2342] text-white font-semibold rounded-full hover:bg-[#0f3158] hover:shadow-lg hover:cursor-pointer transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                type="submit"
+                [disabled]="isSubmitting"
+              >
+                <span *ngIf="!isSubmitting">Send Message</span>
+                <span *ngIf="isSubmitting">Sending...</span>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
-      <div class="flex items-center justify-end mt-5">
-        <button class="text-sm/6 font-semibold text-gray-900 py-2 px-6 border rounded-md border-blue-900 hover:bg-blue-900 hover:text-white" type="submit">Submit</button>
-      </div>
-    </form>
+    </div>
   </div>
 </div>

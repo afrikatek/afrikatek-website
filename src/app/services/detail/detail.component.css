@@ -1,0 +1,6 @@
+/* Additional styles for service detail component */
+.testimonial-quote {
+  position: relative;
+}
+
+/* Any custom styles beyond Tailwind can be added here */

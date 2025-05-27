@@ -1,23 +1,102 @@
-<section>
-  <div class="max-w-5xl py-5 flex flex-col gap-5">
-    <h1 class="text-7xl text-blue-900">Our Projects</h1>
-    <h1 class="text-5xl text-gray-600">Some of the projects we have been solving at <span class="text-blue-900"><strong>Afrikatek</strong></span>
-      Solutions</h1>
-    <p class="text-gray-600">We have been building scalable solutions for clients ranging from website development all
-      the way to fully fledged
-      web application solutions. We are firm believers in applying well established solutions that have stood a test of
-      time. We do not believe that there is need to invent the wheel now. We believe that our solutions should be
-      informed
-      by previous people's work both mistakes and successes.</p>
-  </div>
-  <div>
-    <div class="flex flex-col gap-3 max-w-md hover:shadow-lg hover:rounded-md hover:bg-gray-100 p-5">
-      <img src="#" alt="Project Icon Image"/>
-      <h4 class="text-2xl text-blue-900">Project Title</h4>
-      <hr>
-      <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem magnam, maiores necessitatibus
-        pariatur sunt velit. Eius eligendi nesciunt reprehenderit!</p>
-      <a href="#">Project Url</a>
+<div>
+  <!-- Hero Section -->
+<!--  bg-[#D8D9D7]-->
+  <div class="bg-[#D8D9D7] text-white py-20 px-8 md:px-16">
+    <div class="max-w-7xl mx-auto">
+      <h1 class="text-5xl md:text-6xl text-[#0a2342] font-semibold mb-4">Our Projects</h1>
+      <h2 class="text-3xl md:text-4xl text-[#0a2342] mb-8">Innovative Solutions by <span class="text-[#F7792C] font-semibold">Afrikatek</span></h2>
+      <p class="text-xl text-[#0a2342] max-w-4xl leading-relaxed">
+        We have been building scalable solutions for clients ranging from website development to fully fledged web application solutions. We are firm believers in applying well-established solutions that have stood the test of time, informed by both the successes and lessons of those who came before us.
+      </p>
     </div>
   </div>
-</section>
+
+  <!-- Featured Project -->
+  <div class="bg-white text-[#0a2342] py-20 px-8 md:px-16">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl font-semibold mb-12 text-center">Featured Project</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+        <div>
+          <h3 class="text-3xl font-semibold mb-6">Titanium Shield</h3>
+          <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+            A comprehensive security solution designed to protect businesses from cyber threats. Titanium Shield provides real-time monitoring, threat detection, and automated response capabilities to safeguard your digital assets.
+          </p>
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start">
+              <svg class="h-6 w-6 text-[#0a2342] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span class="text-gray-600">Advanced threat detection algorithms</span>
+            </div>
+            <div class="flex items-start">
+              <svg class="h-6 w-6 text-[#0a2342] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span class="text-gray-600">Real-time monitoring and alerts</span>
+            </div>
+            <div class="flex items-start">
+              <svg class="h-6 w-6 text-[#0a2342] mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+              </svg>
+              <span class="text-gray-600">Automated incident response</span>
+            </div>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a routerLink="/products/titanium-shield" class="inline-block py-3 px-6 bg-[#0a2342] text-white font-semibold rounded-lg hover:bg-[#0f3158] transition-colors duration-300">Learn More</a>
+            <a href="https://titanium.shield.afrikatek.co.za/" target="_blank" class="inline-block py-3 px-6 border-2 border-[#0a2342] text-[#0a2342] font-semibold rounded-lg hover:bg-gray-100 transition-colors duration-300">Visit Website</a>
+          </div>
+        </div>
+        <div>
+          <img class="w-full rounded-xl shadow-lg" src="./img/projects/titanium-shield.jpg" alt="Titanium Shield Project"/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- More Projects -->
+  <div class="bg-gray-50 text-[#0a2342] py-20 px-8 md:px-16">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl font-semibold mb-12 text-center">More Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:transform hover:scale-105 transition-all duration-300">
+          <img class="w-full h-56 object-cover" src="./img/projects/ecommerce-system.jpg" alt="E-Commerce Platform"/>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">E-Commerce Platform</h3>
+            <p class="text-gray-600 mb-6">A fully-featured online shopping platform with secure payment processing, inventory management, and customer analytics.</p>
+            <a routerLink="/products/ecommerce-platform" class="text-[#0a2342] font-semibold hover:underline">View Details →</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:transform hover:scale-105 transition-all duration-300">
+          <img class="w-full h-56 object-cover" src="./img/projects/health-system.jpg" alt="Healthcare Management System"/>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">Healthcare Management</h3>
+            <p class="text-gray-600 mb-6">An integrated system for healthcare providers to manage patient records, appointments, billing, and medical inventory.</p>
+            <a routerLink="/products/healthcare-management" class="text-[#0a2342] font-semibold hover:underline">View Details →</a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl hover:transform hover:scale-105 transition-all duration-300">
+          <img class="w-full h-56 object-cover" src="./img/projects/education-system.jpg" alt="Educational Platform"/>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold mb-4">Educational Platform</h3>
+            <p class="text-gray-600 mb-6">A comprehensive learning management system with course creation tools, student progress tracking, and interactive assessments.</p>
+            <a routerLink="/products/educational-platform" class="text-[#0a2342] font-semibold hover:underline">View Details →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="bg-[#D8D9D7] text-[#0a2342] py-20 px-8 md:px-16 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-semibold mb-6">Have a Project in Mind?</h2>
+      <p class="text-xl mb-10">Let's discuss how we can help bring your vision to life with our expertise in digital solutions.</p>
+      <a href="/contact" class="inline-block py-4 px-10 bg-white text-[#0a2342] font-semibold rounded-lg hover:bg-gray-200 transition-colors duration-300">Get in Touch</a>
+    </div>
+  </div>
+</div>
