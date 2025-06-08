@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#D5E4FA" fill-opacity="0.3" />
+
+  <!-- Abstract shapes -->
+  <circle cx="150" cy="200" r="100" fill="#071D26" fill-opacity="0.1" />
+  <circle cx="450" cy="150" r="80" fill="#D96704" fill-opacity="0.2" />
+  <circle cx="300" cy="300" r="120" fill="#D5E4FA" fill-opacity="0.4" />
+
+  <!-- Computer/Device Icon -->
+  <rect x="200" y="100" width="200" height="150" rx="5" fill="#071D26" />
+  <rect x="210" y="110" width="180" height="120" rx="2" fill="#D5E4FA" />
+  <rect x="250" y="250" width="100" height="10" fill="#071D26" />
+  <rect x="225" y="260" width="150" height="5" fill="#071D26" />
+
+  <!-- Code symbols -->
+  <text x="230" y="150" font-family="monospace" font-size="20" fill="#071D26">&lt;/&gt;</text>
+  <text x="290" y="180" font-family="monospace" font-size="20" fill="#D96704">[...]</text>
+  <text x="350" y="150" font-family="monospace" font-size="20" fill="#071D26">&lt;/&gt;</text>
+
+  <!-- Afrikatek Logo Placeholder -->
+  <text x="300" y="70" font-family="Arial" font-size="24" fill="#071D26" text-anchor="middle" font-weight="bold">AFRIKATEK</text>
+  <text x="300" y="95" font-family="Arial" font-size="18" fill="#D96704" text-anchor="middle">SOLUTIONS</text>
+</svg>
