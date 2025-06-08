@@ -11,6 +11,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Redirect script for GitHub Pages -->
+  <script>
+    (function() {
+      // Check if we need to redirect
+      const redirect = sessionStorage.getItem('redirect');
+      if (redirect) {
+        // Remove the redirect item
+        sessionStorage.removeItem('redirect');
+
+        // If we're not on the homepage, redirect to the stored path
+        if (window.location.pathname.replace(/\/+$/, '') !== '/afrikatek-website') {
+          const newPath = redirect.replace('/afrikatek-website', '');
+          window.history.replaceState(null, null, newPath);
+        }
+      }
+    })();
+  </script>
 </head>
 <body class="bg-gray-50">
   <app-root></app-root>
